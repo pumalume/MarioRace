@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+
+    <Button
+        android:id="@+id/changeUserButton"
+        android:background="@drawable/button_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Change User"
+        android:layout_marginBottom="24dp" />
+    <TextView
+        android:id="@+id/groupIdTextView"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group:"
+        android:layout_marginBottom="24dp" />
+    <TextView
+        android:id="@+id/studentIdTextView"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student:"
+        android:layout_marginBottom="24dp" />
+    <TextView
+        android:id="@+id/chapterIdTextView"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chapter:"
+        android:layout_marginBottom="24dp" />
+
+
+    <Button
+        android:id="@+id/startRace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Start"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>
